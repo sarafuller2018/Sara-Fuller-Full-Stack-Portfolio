@@ -3,7 +3,7 @@ import "../styles/Header.css";
 function Header() {
     return (
         <header>
-            <h1>Sara Fuller</h1>
+            <img src="../src/assets/Portfolio-Headshot.png"></img>
         </header>
     );
 }

@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #EBC4A8;
+}
+
+header img {
+    width: 40%;
+}
