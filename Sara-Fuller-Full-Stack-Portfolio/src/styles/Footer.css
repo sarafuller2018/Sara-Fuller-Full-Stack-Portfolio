@@ -1,0 +1,9 @@
+img {
+    width: 3rem;
+    padding: 5px
+}
+
+img:hover {
+transition: all 0.65s;
+transform: rotateY(360deg);
+}
