@@ -1,11 +1,23 @@
 .card1 {
-    background-image: url(../assets/Social-Network-API.png);
+    background-image: url(../assets/Bright1.png);
 }
 
 .card2 {
-    background-image: url(../assets/Employee-Tracker.png);
+    background-image: url(../assets/Bright2.png);
 }
 
 .card3 {
-    background-image: url(../assets/Pure-Momentum-Workout.png);
+    background-image: url(../assets/Medium1.png);
+}
+
+.card4 {
+    background-image: url(../assets/Medium2.png);
+}
+
+.card5 {
+    background-image: url(../assets/Dark1.png);
+}
+
+.card6 {
+    background-image: url(../assets/Dark2.png);
 }
