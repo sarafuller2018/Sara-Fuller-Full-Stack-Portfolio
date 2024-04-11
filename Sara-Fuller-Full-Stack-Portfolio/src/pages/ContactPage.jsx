@@ -83,13 +83,13 @@ export default function ContactMe() {
             className="message-input"
           />
           <br />
-          <button type="submit" className="p-2 m-2 contact-submit-button"><span>Submit</span></button>
-        </form>
-        {errorMessage && (
+          {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+          <button type="submit" className="p-2 m-2 contact-submit-button"><span>Submit</span></button>
+        </form>
       </div>
     );
   }
