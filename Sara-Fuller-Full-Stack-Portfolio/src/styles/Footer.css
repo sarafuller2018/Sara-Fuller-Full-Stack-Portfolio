@@ -7,3 +7,9 @@
 transition: all 0.65s;
 transform: rotateY(360deg);
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
