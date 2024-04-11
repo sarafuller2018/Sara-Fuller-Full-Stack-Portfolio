@@ -1,0 +1,30 @@
+.contact-submit-button {
+background-color: #B58363;
+border-width: 1px;
+border-color: rgba(250, 185, 142, 0.452);
+}
+
+.contact-submit-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .contact-submit-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .contact-submit-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .contact-submit-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -2,7 +2,7 @@ import "../styles/Header.css";
 
 function Header() {
     return (
-        <header>
+        <header className="header">
             <img src="../src/assets/Portfolio-Headshot.png"></img>
         </header>
     );

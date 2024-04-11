@@ -1,16 +1,93 @@
+import { useState } from "react";
+
+import { validateEmailAddress } from "../utils/helpers";
+import "../styles/Contact.css"
+
 export default function ContactMe() {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (event) => {
+    const { target } = event;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "name") {
+      setName(inputValue); 
+    } else if (inputType === "email") {
+      setEmail(inputValue);
+    } else {
+      setMessage(inputValue)
+    }
+  };
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    if (!validateEmailAddress(email)) {
+      setErrorMessage("Invalid email address");
+      return;
+    }
+    if (!name) {
+      setErrorMessage("Name is required for submission");
+      return;
+    }
+    if (!message) {
+      setErrorMessage("Message is required for submission");
+      return;
+    }
+    alert("Thank you for your submission! I will get back to you as quickly as possible.")
+
+    setName("");
+    setEmail("");
+    setMessage("");
+    setErrorMessage("")
+    };
+
     return (
-      <div>
-        <h1>Contact</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+      <div className="container text-center">
+        <h2>Hello {name}</h2>
+        <form className="form" onSubmit={handleFormSubmit}>
+        <label>Name:</label>
+        <br />
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name"
+          />
+          <br />
+          <label>Email:</label>
+          <br />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="Email"
+          />
+          <br />
+          <label>Message:</label>
+          <br />
+          <input
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Message"
+          />
+          <br />
+          <button type="submit" className="p-2 m-2 contact-submit-button"><span>Submit</span></button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
       </div>
     );
   }
-  
