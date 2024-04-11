@@ -1,10 +1,10 @@
-h1 {
+.about-me-info h1 {
     font-size: 40px;
     text-align: center;
     font-weight: 300;
 }
 
-p {
+.about-me-info p {
     text-align: center;
     padding: 10px;
     padding-left: 30%;

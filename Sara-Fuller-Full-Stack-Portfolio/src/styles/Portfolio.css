@@ -1,3 +1,9 @@
+.portfolio-div h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
 .card1 {
     background-image: url(../assets/Bright1.png);
 }

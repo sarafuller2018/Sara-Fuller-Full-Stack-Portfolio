@@ -2,7 +2,7 @@ import "../styles/Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <>
+    <div className="portfolio-div">
       <h1>Portfolio</h1>
       <div className="card1">
         <div className="card-body">
@@ -46,6 +46,6 @@ export default function Portfolio() {
           <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

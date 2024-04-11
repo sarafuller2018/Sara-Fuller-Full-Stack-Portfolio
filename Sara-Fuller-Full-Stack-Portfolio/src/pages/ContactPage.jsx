@@ -39,7 +39,7 @@ export default function ContactMe() {
       setErrorMessage("Message is required for submission");
       return;
     }
-    alert("Thank you for your submission! I will get back to you as quickly as possible.")
+    alert("Thank you for your submission!")
 
     setName("");
     setEmail("");
@@ -48,8 +48,9 @@ export default function ContactMe() {
     };
 
     return (
-      <div className="container text-center">
-        <h2>Hello {name}</h2>
+      <div className="container text-center contact-form">
+        <h1>Thank you for visiting my page {name}</h1>
+        <p>You may enter your information below, and I will reach out as quickly as possible.</p>
         <form className="form" onSubmit={handleFormSubmit}>
         <label>Name:</label>
         <br />
@@ -79,6 +80,7 @@ export default function ContactMe() {
             onChange={handleInputChange}
             type="text"
             placeholder="Message"
+            className="message-input"
           />
           <br />
           <button type="submit" className="p-2 m-2 contact-submit-button"><span>Submit</span></button>

@@ -2,7 +2,7 @@ import "../styles/AboutMe.css";
 
 export default function About() {
     return (
-      <div>
+      <div className="about-me-info">
         <h1>Welcome to my portfolio! My name is Sara.</h1>
         
         <p>I am a results-driven professional with a background in education and recent training in full stack development through the Rice University Full Stack Coding Boot Camp. 

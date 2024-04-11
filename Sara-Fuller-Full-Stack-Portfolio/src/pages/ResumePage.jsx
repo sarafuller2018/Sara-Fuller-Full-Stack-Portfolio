@@ -2,7 +2,7 @@ import "../styles/Resume.css"
 
 export default function Resume() {
   return (
-    <div>
+    <div className="resume-div">
       <h1>Resume</h1>
       <p>
         You can find a PDF version of my resume <a href="./src/assets/files/Sara-Fuller-Resume-2024.pdf">here</a>.

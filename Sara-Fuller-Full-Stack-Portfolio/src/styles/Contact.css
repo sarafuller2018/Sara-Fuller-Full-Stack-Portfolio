@@ -1,3 +1,24 @@
+.contact-form h1 {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.contact-form input {
+  width: 400px;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.message-input {
+  height: 400px;
+}
+
+.contact-form input[type="text"]::placeholder {
+  text-align: left;
+  position: absolute;
+  top: 0%;
+}
+
 .contact-submit-button {
 background-color: #B58363;
 border-width: 1px;
