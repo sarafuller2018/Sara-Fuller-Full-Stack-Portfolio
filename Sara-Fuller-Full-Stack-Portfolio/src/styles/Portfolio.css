@@ -5,25 +5,37 @@
 }
 
 .card1 {
-    background-image: url(../assets/Bright1.png);
+    background-image: url(../assets/Vet-Tech.png);
 }
 
 .card2 {
-    background-image: url(../assets/Bright2.png);
+    background-image: url(../assets/Employee-Tracker.png);
 }
 
 .card3 {
-    background-image: url(../assets/Medium1.png);
+    background-image: url(../assets/E-Commerce.png);
 }
 
 .card4 {
-    background-image: url(../assets/Medium2.png);
+    background-image: url(../assets/Social-Network.png);
 }
 
 .card5 {
-    background-image: url(../assets/Dark1.png);
+    background-image: url(../assets/JATE.png);
 }
 
 .card6 {
-    background-image: url(../assets/Dark2.png);
+    background-image: url(../assets/Weather-Dashboard.png);
 }
+
+.portfolio-card-img {
+    width: 3rem;
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+.portfolio-card-img:hover {
+    transition: all 0.65s;
+    transform: rotateY(360deg);
+    }

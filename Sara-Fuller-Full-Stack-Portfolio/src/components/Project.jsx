@@ -1,19 +1,21 @@
-
-
+/* eslint-disable react/prop-types */
 function Project(props) {
   console.log(props);
 
-    return (
+  return (
     <>
-    <div className={"card"+props.id}>
-        <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
-          <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+    
+      <div className="card media position-relative">
+        <div className={"card" + props.id}>
+          <div className="card-body">
+            <h5><a href={props.deployedApp} className="stretched-link">{props.title}</a></h5>
+            <a href={props.GitHub}><img src="../src/assets/GitHub-Mark.png" className="portfolio-card-img"/></a>
+          </div>
         </div>
       </div>
+  
     </>
-    );
+  );
 }
 
 export default Project;
