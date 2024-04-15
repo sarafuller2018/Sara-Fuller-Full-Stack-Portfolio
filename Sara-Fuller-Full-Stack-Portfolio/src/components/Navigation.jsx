@@ -1,18 +1,12 @@
 import "../styles/Navigation.css";
 import { Link, useLocation } from "react-router-dom";
 
-const styles = {
-  navLink: {
-    color: "#000000",
-  },
-};
-
 function Navigation() {
     const currentPage = useLocation().pathname;
     
     return (
         <ul className="nav justify-content-center">
-        <li className="nav-item" style={styles.nav}>
+        <li className="nav-item">
           <Link
             to="/"
             // This is a conditional (ternary) operator that checks to see if the current page is "Home"

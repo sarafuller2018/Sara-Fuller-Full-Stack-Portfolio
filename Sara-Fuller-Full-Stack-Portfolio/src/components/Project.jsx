@@ -1,46 +1,19 @@
-import Portfolio from "../pages/PortfolioPage";
 
-const projects = [
-    {
-      id: 1,
-      title: "Vet-Tech",
-      deployedApp: "https://vet-tech-app-57f56dec96cd.herokuapp.com/",
-      GitHub: "https://github.com/Efren96/vet-tech-app"
-    },
-    {
-      id: 2,
-      title: "Employee-Tracker",
-      deployedApp: "https://drive.google.com/file/d/1OaVzTpA6xZdGNphXx4MUI1wYgx4VOcwv/view?usp=sharing",
-      GitHub: "https://github.com/sarafuller2018/Employee-Tracker"
-    },
-    {
-      id: 3,
-      title: "High-Performance-E-Commerce-Backend-Solution",
-      deployedApp: "https://drive.google.com/file/d/1NENq3m8nHM0rbGeBEqDb0APXqDxPvvIq/view",
-      GitHub: "https://github.com/sarafuller2018/High-Performance-E-Commerce-Backend-Solution"
-    },
-    {
-      id: 4,
-      title: "Social-Network-API",
-      deployedApp: "https://drive.google.com/file/d/1MMpPViNRW_zSNo4pUTZn19f5TBLZMg-8/view?usp=sharing",
-      GitHub: "https://github.com/sarafuller2018/Social-Network-API"
-    },
-    {
-      id: 5,
-      title: "Text-Editor-App",
-      deployedApp: "https://text-editor-app-7ozz.onrender.com/",
-      GitHub: "https://github.com/sarafuller2018/Text-Editor-App"
-    },
-    {
-      id: 6,
-      title: "Weather-Dashboard",
-      deployedApp: "https://sarafuller2018.github.io/Weather-Dashboard/",
-      GitHub: "https://github.com/sarafuller2018/Weather-Dashboard"
-    }
-  ];
 
-function Project() {
-    return <Portfolio projects={projects} />;
+function Project(props) {
+  console.log(props);
+
+    return (
+    <>
+    <div className={"card"+props.id}>
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </>
+    );
 }
 
 export default Project;
