@@ -9,7 +9,7 @@ function Project(props) {
         <div className={"card" + props.id}>
           <div className="card-body">
             <h5><a href={props.deployedApp} className="stretched-link">{props.title}</a></h5>
-            <a href={props.GitHub}><img src="../src/assets/GitHub-Mark.png" className="portfolio-card-img"/></a>
+            <a href={props.GitHub}><img src="../../public/GitHub-Mark.png" className="portfolio-card-img"/></a>
           </div>
         </div>
       </div>

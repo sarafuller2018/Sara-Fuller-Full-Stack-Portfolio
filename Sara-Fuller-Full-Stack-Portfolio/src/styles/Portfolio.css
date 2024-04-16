@@ -5,27 +5,27 @@
 }
 
 .card1 {
-    background-image: url(../assets/Vet-Tech.png);
+    background-image: url(../../public/Vet-Tech.png);
 }
 
 .card2 {
-    background-image: url(../assets/Employee-Tracker.png);
+    background-image: url(../../public/Employee-Tracker.png);
 }
 
 .card3 {
-    background-image: url(../assets/E-Commerce.png);
+    background-image: url(../../public/E-Commerce.png);
 }
 
 .card4 {
-    background-image: url(../assets/Social-Network.png);
+    background-image: url(../../public/Social-Network.png);
 }
 
 .card5 {
-    background-image: url(../assets/JATE.png);
+    background-image: url(../../public/JATE.png);
 }
 
 .card6 {
-    background-image: url(../assets/Weather-Dashboard.png);
+    background-image: url(../../public/Weather-Dashboard.png);
 }
 
 .portfolio-card-img {
