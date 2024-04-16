@@ -44,7 +44,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio-div">
       <h1>Portfolio</h1>
-      <div className="card-deck">
+      <div className="row">
         {projects.map((item) =>
           <Project title={item.title} id={item.id} key={item.id} GitHub={item.GitHub} deployedApp={item.deployedApp} />
         )}

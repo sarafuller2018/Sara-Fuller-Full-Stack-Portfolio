@@ -4,28 +4,63 @@
     font-weight: 300;
 }
 
+.card {
+    /* width: 50rem;
+    height: auto; */
+}
+
 .card1 {
     background-image: url(/Vet-Tech.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .card2 {
     background-image: url(/Employee-Tracker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .card3 {
     background-image: url(/E-Commerce.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .card4 {
     background-image: url(/Social-Network.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .card5 {
     background-image: url(/JATE.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .card6 {
     background-image: url(/Weather-Dashboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
 }
 
 .portfolio-card-img {
