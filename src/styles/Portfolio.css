@@ -1,12 +1,15 @@
+.portfolio-div {
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
 .portfolio-div h1 {
     font-size: 40px;
     text-align: center;
     font-weight: 300;
-}
-
-.card {
-    /* width: 50rem;
-    height: auto; */
 }
 
 .card1 {
@@ -16,6 +19,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .card2 {
@@ -25,6 +29,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .card3 {
@@ -34,6 +39,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .card4 {
@@ -43,6 +49,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .card5 {
@@ -52,6 +59,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .card6 {
@@ -61,6 +69,7 @@
     background-size: cover;
     width: 800px;
     height: 500px;
+    margin: 20px;
 }
 
 .portfolio-card-img {
@@ -73,4 +82,53 @@
 .portfolio-card-img:hover {
     transition: all 0.65s;
     transform: rotateY(360deg);
+}
+
+.card {
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    padding: 32px 24px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: rgb(181, 131, 99);
+        height: 1px;
+        width: 1px;
+        transform: scale(1);
+        transform-origin: 50% 50%;
+        transition: transform 0.9s ease-out;
     }
+
+    &:hover:before {
+        transform: scale(2000);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+a:hover {
+    transition: transform 3s ease-out;
+    color: black;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.hidden:hover {
+    opacity: 1;
+}
