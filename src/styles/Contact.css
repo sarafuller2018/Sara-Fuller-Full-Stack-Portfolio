@@ -5,6 +5,8 @@
 
 .contact-form form {
   background-color: rgb(181, 131, 99);
+  border-radius: 5px;
+  border-color: #956C52;
   margin: 20px;
   width: 60%;
   margin-left: auto;
