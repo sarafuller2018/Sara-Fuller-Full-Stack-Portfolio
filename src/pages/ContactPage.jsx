@@ -29,17 +29,17 @@ export default function ContactMe() {
     let errorMessage = "";
     if (!validateEmailAddress(email)) {
       // setErrorMessage("Invalid email address");
-      errorMessage += "Invalid email address.\n";
+      errorMessage += "Invalid email address.";
       // return;
     }
     if (!name) {
       // setErrorMessage("Name is required for submission");
-      errorMessage += "\nName is required for submission \n";
+      errorMessage += "Name is required for submission.";
       // return;
     }
     if (!message) {
       // setErrorMessage("Message is required for submission");
-      errorMessage += "\nMessage is required for submission \n";
+      errorMessage += "Message is required for submission.";
       // return;
     }
     if (errorMessage.length > 0) {

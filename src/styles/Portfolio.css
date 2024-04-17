@@ -1,4 +1,4 @@
-a {
+.card a {
     text-decoration: none;
     color: transparent;
     font-weight: 200;
@@ -8,6 +8,7 @@ a {
 
 .portfolio-div {
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .row {
@@ -25,8 +26,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -35,8 +36,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -45,8 +46,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -55,8 +56,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -65,8 +66,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
@@ -75,8 +76,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 450px;
     margin: 20px;
 }
 
