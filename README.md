@@ -38,8 +38,3 @@ Please refer to the LICENSE in the repo.
 ## Screenshot of Website
 
 ![Alt text](/public/Portfolio-Headshot.png)
-
-things to ask tutor: 
-body background color whitespace
-override bootstrap text color for nav bar
-error messages on contact form
