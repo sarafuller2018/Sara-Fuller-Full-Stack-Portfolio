@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+    color: transparent;
+    font-weight: 200;
+    font-size: 40px;
+    color: black;
+}
+
 .portfolio-div {
     justify-content: center;
 }
@@ -112,19 +120,11 @@
     }
 }
 
-a {
-    text-decoration: none;
-    color: transparent;
-    font-weight: 200;
-    font-size: 40px;
-    color: black;
-}
-
 .hidden {
     opacity: 0;
 }
 
 .hidden:hover {
     opacity: 1;
-    transition: opacity .9s;
+    transition: opacity 1.6s;
 }
