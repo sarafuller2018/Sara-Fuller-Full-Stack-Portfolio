@@ -26,28 +26,7 @@ export default function ContactMe() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    let errorMessage = "";
-    if (!validateEmailAddress(email)) {
-      // setErrorMessage("Invalid email address");
-      errorMessage += "Invalid email address.";
-      // return;
-    }
-    if (!name) {
-      // setErrorMessage("Name is required for submission");
-      errorMessage += "Name is required for submission.";
-      // return;
-    }
-    if (!message) {
-      // setErrorMessage("Message is required for submission");
-      errorMessage += "Message is required for submission.";
-      // return;
-    }
-    if (errorMessage.length > 0) {
-      setErrorMessage(errorMessage);
-      return;
-    } else {
-      alert("Thank you for your submission!")
-    }
+    alert("Thank you for your submission!")
 
     setName("");
     setEmail("");
@@ -63,6 +42,12 @@ export default function ContactMe() {
         <label>Name:</label>
         <br />
         <input
+          onBlur={(e) => {
+            if (e.currentTarget === e.target && name.length === 0) {
+              alert("You must enter your name to submit.");
+            }
+          }
+          }
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -73,6 +58,12 @@ export default function ContactMe() {
         <label>Email:</label>
         <br />
         <input
+          onBlur={(e) => {
+            if (e.currentTarget === e.target && email.length === 0) {
+              alert("You must enter your email to submit.");
+            }
+          }
+          }
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -83,6 +74,12 @@ export default function ContactMe() {
         <label>Message:</label>
         <br />
         <input
+          onBlur={(e) => {
+            if (e.currentTarget === e.target && message.length === 0) {
+              alert("You must enter a message to submit.");
+            }
+          }
+          }
           value={message}
           name="message"
           onChange={handleInputChange}
