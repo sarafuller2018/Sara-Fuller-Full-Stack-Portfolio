@@ -3,12 +3,12 @@ import { useState } from "react";
 import { validateEmailAddress } from "../utils/helpers";
 import "../styles/Contact.css"
 
+
 export default function ContactMe() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (event) => {
     const { target } = event;
@@ -26,17 +26,14 @@ export default function ContactMe() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    if (!validateEmailAddress(email)) {
-      setErrorMessage("Invalid email address.");
-      return;
+    if (name && email && message) {
+    alert("Thank you for your submission!")
     } else {
-      alert("Thank you for your submission!")
+      alert("Please fill out required fields.")
     }
-
     setName("");
     setEmail("");
     setMessage("");
-    setErrorMessage("")
   };
 
   return (
@@ -53,7 +50,7 @@ export default function ContactMe() {
             }
           }
           }
-          value={name}
+          value={name.trim()}
           name="name"
           onChange={handleInputChange}
           type="text"
@@ -64,12 +61,12 @@ export default function ContactMe() {
         <br />
         <input
           onBlur={(e) => {
-            if (e.currentTarget === e.target && email.length === 0) {
-              alert("You must enter your email to submit.");
+            if (e.currentTarget === e.target && email.length === 0 || !validateEmailAddress(email)) {
+              alert("Please enter a valid email address.");
             }
           }
           }
-          value={email}
+          value={email.trim()}
           name="email"
           onChange={handleInputChange}
           type="email"
@@ -85,7 +82,7 @@ export default function ContactMe() {
             }
           }
           }
-          value={message}
+          value={message.trim()}
           name="message"
           onChange={handleInputChange}
           type="text"
@@ -93,11 +90,6 @@ export default function ContactMe() {
           className="message-input"
         />
         <br />
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
         <button type="submit" className="p-2 m-2 contact-submit-button"><span>Submit</span></button>
       </form>
     </div>
