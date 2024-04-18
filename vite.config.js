@@ -9,7 +9,3 @@ export default defineConfig({
     open: true
   }
 })
-
-// things to ask tutor: 
-// override bootstrap text color for nav bar
-// error messages on contact form
