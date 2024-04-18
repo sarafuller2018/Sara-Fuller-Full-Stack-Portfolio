@@ -1,9 +1,9 @@
-.nav-item a {
+.nav a {
     color: #B58363;
     font-size: 20px;
     font-weight: 500;
 }
 
-.nav {
+.nav a:hover {
     color: #523000;
 }
