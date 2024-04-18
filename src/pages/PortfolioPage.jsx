@@ -7,7 +7,7 @@ const projects = [
     title: "Vet-Tech",
     deployedApp: "https://vet-tech-app-57f56dec96cd.herokuapp.com/",
     GitHub: "https://github.com/Efren96/vet-tech-app",
-    description: "The Vet-Tech application allows users (vets) to securely store and maintain pet and owner information."
+    description: "The Vet-Tech application allows users (vets) to securely store and maintain pet and owner information. Demo username is user@vettech.com and demo password is BarkMeow123"
   },
   {
     id: 2,

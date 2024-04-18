@@ -5,5 +5,11 @@
 }
 
 .header img {
-    width: 40%;
+    width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+    .header img {
+        width: 100%;
+    }
 }

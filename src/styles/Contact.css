@@ -70,3 +70,9 @@
 .error-text {
   font-style: italic;
 }
+
+@media screen and (max-width: 992px) {
+  .form input {
+      width: auto;
+  }
+}

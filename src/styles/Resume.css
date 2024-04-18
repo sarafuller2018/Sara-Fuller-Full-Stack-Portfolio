@@ -22,3 +22,19 @@
 .resume-div a {
     color: #523000
 }
+
+@media screen and (max-width: 992px) {
+    .resume-div p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .resume-div ul {
+        text-align: left;
+        padding-left: 0;
+    }
+}

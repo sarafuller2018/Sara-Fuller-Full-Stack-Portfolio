@@ -10,3 +10,10 @@
     padding-left: 30%;
     padding-right: 30%;
 }
+
+@media screen and (max-width: 992px) {
+    .about-me-info p {
+        text-align: center;
+        padding: 10px;
+    }
+}

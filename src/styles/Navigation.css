@@ -13,3 +13,12 @@ a.nav-link.active {
     font-size: 20px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 992px) {
+    .nav {
+        display: block;
+        flex-direction: column;
+        text-align: center;
+        line-height: 1;
+    }
+}

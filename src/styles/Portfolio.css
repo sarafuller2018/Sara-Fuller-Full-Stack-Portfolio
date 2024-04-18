@@ -129,3 +129,41 @@
     opacity: 1;
     transition: opacity 1.6s;
 }
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .card2 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .card3 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .card4 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .card5 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+    
+    .card6 {
+        width: 300px;
+        height: 250px;
+        margin: 20px;
+    }
+}
