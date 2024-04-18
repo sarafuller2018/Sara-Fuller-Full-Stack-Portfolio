@@ -10,6 +10,8 @@ export default function About() {
         I am eager to transition into a career in software development, where I can apply my technical expertise and 
         passion for coding to drive innovative solutions and collaborate effectively within dynamic teams.
         </p>
+
+        <p>Feel free to navigate through my portifolio to peek at projects I have created as well as my resume. Please reach out with any questions you may have for me!</p>
         
       </div>
     );
