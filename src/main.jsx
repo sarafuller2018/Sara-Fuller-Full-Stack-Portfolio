@@ -1,11 +1,12 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import ErrorPage from './pages/ErrorPage';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 import AboutMe from './pages/AboutMePage.jsx';
 import Portfolio from './pages/PortfolioPage.jsx';
