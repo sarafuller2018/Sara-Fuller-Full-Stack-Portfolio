@@ -26,7 +26,12 @@ export default function ContactMe() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    alert("Thank you for your submission!")
+    if (!validateEmailAddress(email)) {
+      setErrorMessage("Invalid email address.");
+      return;
+    } else {
+      alert("Thank you for your submission!")
+    }
 
     setName("");
     setEmail("");
