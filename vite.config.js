@@ -11,6 +11,5 @@ export default defineConfig({
 })
 
 // things to ask tutor: 
-// body background color whitespace
 // override bootstrap text color for nav bar
 // error messages on contact form

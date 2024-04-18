@@ -6,8 +6,6 @@ import './index.css'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
-
 import AboutMe from './pages/AboutMePage.jsx';
 import Portfolio from './pages/PortfolioPage.jsx';
 import Resume from './pages/ResumePage.jsx';

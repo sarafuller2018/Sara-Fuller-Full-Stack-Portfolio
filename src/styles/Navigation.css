@@ -1,3 +1,9 @@
-.nav-link {
-    color: pink,
+.nav-item a {
+    color: #B58363;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav {
+    color: #523000;
 }
