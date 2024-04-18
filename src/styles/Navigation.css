@@ -7,3 +7,9 @@
 .nav a:hover {
     color: #523000;
 }
+
+a.nav-link.active {
+    color: #523000;
+    font-size: 20px;
+    font-weight: 500;
+}
