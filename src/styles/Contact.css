@@ -79,4 +79,12 @@
   .form input {
       width: auto;
   }
+
+  .contact-form h1 {
+    margin-top: 15px;
+  }
+  
+  .contact-form input::placeholder {
+    color: transparent;
+  }
 }

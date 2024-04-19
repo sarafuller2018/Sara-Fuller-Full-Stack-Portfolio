@@ -190,4 +190,8 @@
         z-index: 1;
         position: relative;
     }
+
+    .portfolio-div h1 {
+        display: none;
+    }
 }

@@ -37,4 +37,8 @@
         text-align: left;
         padding-left: 0;
     }
+
+    .resume-div h1 {
+        display: none;
+    }
 }
