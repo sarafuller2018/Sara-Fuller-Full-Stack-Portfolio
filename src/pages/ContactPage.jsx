@@ -39,7 +39,7 @@ export default function ContactMe() {
   return (
     <div className="container text-center contact-form">
       <h1>Thank you for visiting my page {name}</h1>
-      <p>You may enter your information below, and I will reach out as quickly as possible.</p>
+      <p className="contact-p">You may enter your information below, and I will reach out as quickly as possible.</p>
       <form className="form" onSubmit={handleFormSubmit}>
         <label>Name:</label>
         <br />
@@ -50,7 +50,7 @@ export default function ContactMe() {
             }
           }
           }
-          value={name.trim()}
+          value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
@@ -66,7 +66,7 @@ export default function ContactMe() {
             }
           }
           }
-          value={email.trim()}
+          value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
@@ -82,7 +82,7 @@ export default function ContactMe() {
             }
           }
           }
-          value={message.trim()}
+          value={message}
           name="message"
           onChange={handleInputChange}
           type="text"

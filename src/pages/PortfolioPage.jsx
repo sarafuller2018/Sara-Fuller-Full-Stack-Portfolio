@@ -50,7 +50,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio-div d-flex">
       <div className="row">
-      <h1>Portfolio</h1>
+      <h1>Work Samples</h1>
         {projects.map((item) =>
           <Project title={item.title} id={item.id} key={item.id} GitHub={item.GitHub} deployedApp={item.deployedApp} description={item.description}/>
         )}

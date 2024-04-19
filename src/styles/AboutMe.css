@@ -16,4 +16,8 @@
         text-align: center;
         padding: 10px;
     }
+
+    .about-me-info h1 {
+        font-size: 30px;
+    }
 }
