@@ -52,6 +52,7 @@
     .resume-div ul {
         text-align: left;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .resume-div h1 {
@@ -64,7 +65,11 @@
      }
 
      .frontend-card {
-        padding-right: 45px;
+        padding-right: 0px;
+    }
+
+    .frontend-card h2 {
+        padding-right: 10px;
     }
 
     .backend-card {
