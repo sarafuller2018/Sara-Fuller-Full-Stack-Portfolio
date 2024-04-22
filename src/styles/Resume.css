@@ -13,10 +13,26 @@
 
 .card {
     background-color: rgb(181, 131, 99);
+    padding: 0%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card h2 {
+   font-size: 20px;
+   padding-left: 30px;
+}
+
+.frontend-card {
+    padding-right: 80px;
 }
 
 .resume-div ul li {
     list-style-type: none;
+    text-align: left;
+    padding-left: 0%;
 }
 
 .resume-div a {
@@ -40,5 +56,14 @@
 
     .resume-div h1 {
         display: none;
+    }
+
+    .card h2 {
+        font-size: 20px;
+        padding-left: 0%;
+     }
+
+     .frontend-card {
+        padding-right: 45px;
     }
 }

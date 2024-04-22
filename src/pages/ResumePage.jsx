@@ -10,7 +10,7 @@ export default function Resume() {
 
       <div className="d-inline-flex justify-content-center w-100">
         <div className="card p-2 mx-2">
-          <div className="card-body">
+          <div className="card-body frontend-card">
             <h2>Frontend Proficiencies</h2>
             <ul>
               <li>HTML</li>
