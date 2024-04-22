@@ -59,11 +59,15 @@
     }
 
     .card h2 {
-        font-size: 16px;
+        font-size: 18px;
         padding-left: 0%;
      }
 
      .frontend-card {
         padding-right: 45px;
+    }
+
+    .backend-card {
+        padding-right: 0px;
     }
 }
