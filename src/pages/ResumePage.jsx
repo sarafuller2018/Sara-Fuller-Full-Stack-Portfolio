@@ -26,7 +26,7 @@ export default function Resume() {
 
         <div className="card p-2 mx-2">
           <div className="card-body backend-card">
-            <h2>Backend Proficiencies</h2>
+            <h2>Backend <span className="break">Proficiencies</span></h2>
             <ul>
               <li>APIs</li>
               <li>Node.js</li>
