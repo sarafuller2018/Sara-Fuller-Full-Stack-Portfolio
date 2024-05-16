@@ -32,10 +32,10 @@ const projects = [
   },
   {
     id: 5,
-    title: "Text-Editor-App",
-    deployedApp: "https://text-editor-app-7ozz.onrender.com/",
-    GitHub: "https://github.com/sarafuller2018/Text-Editor-App",
-    description: "This is a text editor application that runs in the browser and is designed to persist data and work offline. The user can then install what they have entered into the text editor to their local device. It is a single-page web application that functions as a Progressive Web Application (PWA)."
+    title: "codeCave",
+    deployedApp: "https://codecave.onrender.com/",
+    GitHub: "https://github.com/sarafuller2018/codeCave",
+    description: "codeCave is a niche social website for web developers who are actively working on projects. It is designed with collaboration in mind and focuses on allowing developers of all fields and interests to complete projects togther for mutual benefit. Developers can sign-up to create new projects or find work from other users. They will then be able to comment and/or contribute on other users' projects."
   },
   {
     id: 6,
