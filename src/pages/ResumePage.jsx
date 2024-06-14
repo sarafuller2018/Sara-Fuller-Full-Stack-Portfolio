@@ -5,7 +5,7 @@ export default function Resume() {
     <div className="resume-div">
       <h1>Resume</h1>
       <p>
-        You can find a PDF version of my resume <a href="/files/Sara-Fuller-Resume-2024.pdf">here</a>.
+        You can find a PDF version of my resume <a href="/files/Sara-Fuller-Dev-Resume-2024.pdf">here</a>.
       </p>
 
       <div className="d-inline-flex justify-content-center w-100">
